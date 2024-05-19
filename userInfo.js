@@ -8,8 +8,8 @@ function createUserProfiles(names, modifiedNames) {
     return userProfiles;
   }
   
-  const names = ["John", "Alice", "Bob"];
-  const modifiedNames = ["J0hn", "Al1ce", "B0b"];
+  const names = ["Anthony", "Designer", "Ama"];
+  const modifiedNames = ["Anthony", "DESIGNER", "Ama"];
   const profiles = createUserProfiles(names, modifiedNames);
   console.log(profiles);
   
